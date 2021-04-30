@@ -1,0 +1,28 @@
+.contenedor--cajas{
+  width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
+}
+
+.caja{
+  max-width: 430px;
+  .sombra-caja;
+  &__imagen{
+    overflow: hidden;
+  }
+  &__contenido{
+    padding: 25px;
+    background-color: @color-light;
+  }
+  span{
+    color: @color-second;
+    .oswald;
+  }
+  a{
+    text-decoration: none;
+    color: @color-var;
+    .oswald;
+  }
+}
